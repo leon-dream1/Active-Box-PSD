@@ -1,0 +1,348 @@
+
+/*Common Css Part Start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --primary: #2a2d48;
+    --secondary: #6c7279;
+    --third: #e84545;
+    --fourth: #533549;
+    --fifth: #393d63;
+}
+
+/*Common Css Part End*/
+
+/*Header Part Css Start*/
+.back_to_top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.nav_bg{
+  background: #313454;
+  padding: 0;
+  opacity: 1;
+}
+.header{
+    background: url(../image/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box_shadow{
+    padding: 20px 0;
+    box-shadow: 0 1px 1px -1px #fff;
+}
+.navbar{
+  padding: 10px 0;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.header_main{
+    padding: 140px 0;
+}
+.header_con h1{
+     font-size: 55px;
+     font-weight: 700;
+     color: #fff;
+     font-family: 'Raleway', sans-serif;
+     z-index: -1;
+}
+.header_con p{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding: 20px 0 40px 0;
+    line-height: 45px;
+}
+.header_con a{
+    height: 50px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid var(--third);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .4s;
+}
+.header_con a:hover{
+    background: var(--third);
+}
+/*Header Part Css End*/
+
+/*Feature Part Css End*/
+.feature_section{
+    padding: 80px 0;
+}
+.feature_con img{
+    padding: 30px 0;
+}
+.feature_con h4{
+  font-size: 17px;
+  font-weight: 700;
+  color: #2d3033;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+.feature_con p{
+    font-size: 16px;
+    color: var(--secondary);
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+  }
+/*Feature Part Css End*/
+
+/*Works Part Css Start*/
+.vbox-close {
+  top: 0;
+  right: 18px;
+  padding: 10px 15px;
+  color: #000;
+  font-size: 25px;
+  color: var(--vbox-tools-color);
+}
+.vbox-close:hover{
+  color: #fff;
+  background: red;
+}
+.works_section{
+  overflow: hidden;
+}
+.works_con{
+    position: relative;
+    transition: .4s;
+}
+.works_con :hover{
+    opacity: .9;
+}
+ .overlay{
+    height: 100%;
+    width: 100%;
+    background: var(--third);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  }
+  .overlay_con h4{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .overlay_con p{
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .overlay_con a{
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .4s;
+  }
+  .overlay_con a:hover{
+    color: #120f0f;
+  }
+/*Works Part Css End*/
+
+/*Team Part Css Start*/
+.team_con{
+  padding: 15px;
+}
+  .team_con h2{
+    padding: 10px 0;
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 700;
+  }
+  .team_con h6{
+    font-size: 15px;
+    color: var(--third);
+    padding-bottom: 15px;
+  }
+  .team_con p{
+    font-size: 13px;
+    color: #6c7279;
+    line-height: 20px;
+  }
+  .team_con a{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #6c7279;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    color: #6c7279;
+    transition: .4s;
+  }
+  .team_con a:hover{
+   background: #6c7279;
+    color: #fff;
+  }
+/*Team Part Css End*/
+
+
+/*Slider Part Css Start*/
+
+  .background{
+    background: #53354a;
+  }
+  .carousel-inner{
+    padding: 40px;
+  }
+  .slider_con p{
+   font-size: 25px;
+   font-weight: 100;
+   padding: 10px 80px 0px 70px;
+   line-height: 35px;
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+  }
+  .slider_con h6{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px 80px 10px 70px;
+    color: #fff;
+   }
+
+   .carousel-indicators{
+
+     margin-bottom: 0;
+   }
+   .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+/*Slider Part Css End*/
+
+/*Download Part Css Start*/
+   .download_con p{
+    font-size: 36px;
+    font-weight: 100;
+    color: #2d3033;
+   }
+   .download_con h6{
+    font-size: 13px;
+    font-weight: 700;
+    color: #2d3033;
+    padding-bottom: 30px;
+   }
+
+.download_con a{
+    height: 50px;
+    width: 230px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid var(--third);
+    color: #fff;
+    background: var(--third);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .4s;
+}
+.download_con a:hover{
+  background: transparent;
+  color: black;
+}
+/*Download Part Css End*/
+
+/*Contact Part Css Start*/
+.contact_part{
+  background: #3a3e64;
+  padding: 60px 0;
+}
+.contact_con h5{
+ text-transform: uppercase;
+}
+.contact_con p{
+  font-size: 14px;
+  margin-bottom: 0;
+  opacity: .5;
+}
+.contact_con a{
+  height: 35px;
+  width: 35px;
+  border: 1px solid #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  transition: .4s;
+}
+.contact_con a:hover{
+ background: #6c7279;
+  color: #fff;
+}
+.contact_con .para{
+ line-height: 30px;
+ opacity: .5;
+ font-size: 16px;
+}
+/*Contact Part Css End*/
+
+/*Contact Part Css Start*/
+footer{
+  background: #313454;
+  padding: 15px 0;
+}
+footer p{
+  color: #fff;
+  opacity: .5;
+  margin-bottom: 0;
+}
+/*Footer Part Css End*/

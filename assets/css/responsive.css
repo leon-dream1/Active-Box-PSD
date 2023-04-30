@@ -1,0 +1,156 @@
+
+
+@media (min-width:1400px){}
+@media (min-width:1200px) and (max-width:1399px) {} 
+@media (min-width:992px) and (max-width:1199px){
+  /*slider part css start*/
+  .carousel-inner{
+    padding: 13px;
+  }
+  .slider_con h6{
+    font-size: 13px;
+    font-weight: 100;
+    padding: 5px 80px 10px 70px;
+    color: #fff;
+   }
+   .carousel-indicators{
+    bottom: -18px;
+    margin-bottom: 0;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  /*slider part css End*/
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+  /*Header part css start*/
+  .header_main{
+    padding: 254px 0 200px 0;
+ }
+ /*Header part css End*/
+
+ /*slider part css start*/
+  .carousel-inner{
+    padding: 63px;
+  }
+  .slider_con h6{
+    font-size: 13px;
+    font-weight: 100;
+    padding: 5px 80px 10px 70px;
+    color: #fff;
+   }
+   .carousel-indicators{
+    bottom: 0px;
+    margin-bottom: 0;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+   /*slider part css End*/
+        
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+
+/*Header part css start*/
+  .header_main{
+    padding: 254px 0 100px 0;
+}
+/*Header part css End*/
+
+/*Feature part css start*/
+.feature_section{
+  padding: 60px 0;
+}
+/*Feature part css End*/
+
+/*slider part css start*/
+  .slider_con p{
+    font-size: 20px;
+    padding: 10px 80px 0px 70px;
+   }
+   .slider_con h6{
+    font-size: 10px;
+    padding: 5px 80px 10px 70px;
+   }
+  .carousel-indicators{
+    bottom: 8px;
+    margin-bottom: 0;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+  }
+  /*slider part css End*/
+}
+
+
+@media (max-width:575px) {
+
+/*Header part css start*/
+.navbar{
+  padding: 0 9px 0 9px;
+}
+.header_main{
+  padding: 228px 0 100px 0;
+}
+.header_con h1{
+    font-size: 40px;
+}
+.box_shadow{
+  padding: 10px 0;
+}
+.header_con p{
+  font-size: 20px;
+  line-height: 35px;
+}
+/*Header part css End*/
+
+/*Feature part css start*/
+.feature_section{
+  padding: 60px 0;
+}
+/*Feature part css End*/
+
+/*slider part css start*/
+.slider_part{
+    overflow: hidden;
+}
+.carousel-inner{
+  padding: 33px;
+}
+.slider_con p{
+  font-size: 15px;
+  padding: 10px 30px 0px 30px;
+  line-height: 21px;
+ }
+ .slider_con h6{
+  font-size: 10px;
+  padding: 5px 30px 10px 30px;
+ }
+ .carousel-indicators{
+  bottom: 0px;
+  margin-bottom: 0;
+}
+.carousel-indicators [data-bs-target] {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+  /*slider part css End*/
+
+ /*Download part css End*/
+.download_con p{
+  font-size: 26px;
+ }
+/*Download part css End*/
+
+}
